@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3B6BFC29F3A7B80093FC45 /* PineToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6BFB29F3A7B80093FC45 /* PineToolApp.swift */; };
+		0E3B6BFE29F3A7B80093FC45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6BFD29F3A7B80093FC45 /* ContentView.swift */; };
+		0E3B6C0029F3A7B90093FC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B6BFF29F3A7B90093FC45 /* Assets.xcassets */; };
+		0E3B6C0A29F3A82B0093FC45 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C0929F3A82B0093FC45 /* SettingsView.swift */; };
+		0E3B6C0E29F3A85A0093FC45 /* PinecilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C0D29F3A85A0093FC45 /* PinecilManager.swift */; };
+		0E3B6C1029F3C7AC0093FC45 /* TemperaturePowerChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C0F29F3C7AC0093FC45 /* TemperaturePowerChart.swift */; };
+		0E3B6C1229F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C1129F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift */; };
+		0E3B6C1429F552510093FC45 /* PinecilBulkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C1329F552510093FC45 /* PinecilBulkData.swift */; };
+		0E3B6C1629F559900093FC45 /* PinecilStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C1529F559900093FC45 /* PinecilStatusView.swift */; };
+		0E3B6C1829F55EC70093FC45 /* PowerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C1729F55EC70093FC45 /* PowerSource.swift */; };
+		0E3B6C1B29F688A90093FC45 /* TemperatureSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B6C1A29F688A90093FC45 /* TemperatureSetViewController.swift */; };
+		0E3B6C1E29F68A700093FC45 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3B6C1D29F68A700093FC45 /* TinyConstraints */; };
+		0E3B6C2129F68AC70093FC45 /* KeyboardGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3B6C2029F68AC70093FC45 /* KeyboardGuide */; };
+		0E3B6C2529F694A40093FC45 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3B6C2429F694A40093FC45 /* Introspect */; };
+		0E3B6C2729F76E180093FC45 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B6C2629F76E180093FC45 /* LICENSE.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E3B6BF829F3A7B80093FC45 /* PineTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3B6BFB29F3A7B80093FC45 /* PineToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineToolApp.swift; sourceTree = "<group>"; };
+		0E3B6BFD29F3A7B80093FC45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E3B6BFF29F3A7B90093FC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E3B6C0929F3A82B0093FC45 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0E3B6C0D29F3A85A0093FC45 /* PinecilManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecilManager.swift; sourceTree = "<group>"; };
+		0E3B6C0F29F3C7AC0093FC45 /* TemperaturePowerChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperaturePowerChart.swift; sourceTree = "<group>"; };
+		0E3B6C1129F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredPeripheralsList.swift; sourceTree = "<group>"; };
+		0E3B6C1329F552510093FC45 /* PinecilBulkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecilBulkData.swift; sourceTree = "<group>"; };
+		0E3B6C1529F559900093FC45 /* PinecilStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecilStatusView.swift; sourceTree = "<group>"; };
+		0E3B6C1729F55EC70093FC45 /* PowerSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSource.swift; sourceTree = "<group>"; };
+		0E3B6C1929F570AE0093FC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0E3B6C1A29F688A90093FC45 /* TemperatureSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSetViewController.swift; sourceTree = "<group>"; };
+		0E3B6C2629F76E180093FC45 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3B6BF529F3A7B80093FC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3B6C2129F68AC70093FC45 /* KeyboardGuide in Frameworks */,
+				0E3B6C2529F694A40093FC45 /* Introspect in Frameworks */,
+				0E3B6C1E29F68A700093FC45 /* TinyConstraints in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3B6BEF29F3A7B80093FC45 = {
+			isa = PBXGroup;
+			children = (
+				0E3B6C2629F76E180093FC45 /* LICENSE.md */,
+				0E3B6BFA29F3A7B80093FC45 /* PineTool */,
+				0E3B6BF929F3A7B80093FC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E3B6BF929F3A7B80093FC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B6BF829F3A7B80093FC45 /* PineTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E3B6BFA29F3A7B80093FC45 /* PineTool */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B6C1929F570AE0093FC45 /* Info.plist */,
+				0E3B6C0C29F3A83D0093FC45 /* Bluetooth */,
+				0E3B6C0B29F3A8300093FC45 /* Views */,
+				0E3B6BFB29F3A7B80093FC45 /* PineToolApp.swift */,
+				0E3B6BFF29F3A7B90093FC45 /* Assets.xcassets */,
+			);
+			path = PineTool;
+			sourceTree = "<group>";
+		};
+		0E3B6C0B29F3A8300093FC45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B6C2229F68C220093FC45 /* UIKit */,
+				0E3B6BFD29F3A7B80093FC45 /* ContentView.swift */,
+				0E3B6C0929F3A82B0093FC45 /* SettingsView.swift */,
+				0E3B6C0F29F3C7AC0093FC45 /* TemperaturePowerChart.swift */,
+				0E3B6C1129F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift */,
+				0E3B6C1529F559900093FC45 /* PinecilStatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E3B6C0C29F3A83D0093FC45 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B6C0D29F3A85A0093FC45 /* PinecilManager.swift */,
+				0E3B6C1329F552510093FC45 /* PinecilBulkData.swift */,
+				0E3B6C1729F55EC70093FC45 /* PowerSource.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		0E3B6C2229F68C220093FC45 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B6C1A29F688A90093FC45 /* TemperatureSetViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E3B6BF729F3A7B80093FC45 /* PineTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3B6C0629F3A7B90093FC45 /* Build configuration list for PBXNativeTarget "PineTool" */;
+			buildPhases = (
+				0E3B6BF429F3A7B80093FC45 /* Sources */,
+				0E3B6BF529F3A7B80093FC45 /* Frameworks */,
+				0E3B6BF629F3A7B80093FC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PineTool;
+			packageProductDependencies = (
+				0E3B6C1D29F68A700093FC45 /* TinyConstraints */,
+				0E3B6C2029F68AC70093FC45 /* KeyboardGuide */,
+				0E3B6C2429F694A40093FC45 /* Introspect */,
+			);
+			productName = PineTool;
+			productReference = 0E3B6BF829F3A7B80093FC45 /* PineTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E3B6BF029F3A7B80093FC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Lachlan Bell";
+				TargetAttributes = {
+					0E3B6BF729F3A7B80093FC45 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0E3B6BF329F3A7B80093FC45 /* Build configuration list for PBXProject "PineTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E3B6BEF29F3A7B80093FC45;
+			packageReferences = (
+				0E3B6C1C29F68A700093FC45 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				0E3B6C1F29F68AC70093FC45 /* XCRemoteSwiftPackageReference "KeyboardGuide" */,
+				0E3B6C2329F694A40093FC45 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
+			productRefGroup = 0E3B6BF929F3A7B80093FC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3B6BF729F3A7B80093FC45 /* PineTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E3B6BF629F3A7B80093FC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3B6C2729F76E180093FC45 /* LICENSE.md in Resources */,
+				0E3B6C0029F3A7B90093FC45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3B6BF429F3A7B80093FC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3B6C0A29F3A82B0093FC45 /* SettingsView.swift in Sources */,
+				0E3B6BFE29F3A7B80093FC45 /* ContentView.swift in Sources */,
+				0E3B6C1B29F688A90093FC45 /* TemperatureSetViewController.swift in Sources */,
+				0E3B6C1029F3C7AC0093FC45 /* TemperaturePowerChart.swift in Sources */,
+				0E3B6C1829F55EC70093FC45 /* PowerSource.swift in Sources */,
+				0E3B6C1429F552510093FC45 /* PinecilBulkData.swift in Sources */,
+				0E3B6C1229F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift in Sources */,
+				0E3B6C1629F559900093FC45 /* PinecilStatusView.swift in Sources */,
+				0E3B6C0E29F3A85A0093FC45 /* PinecilManager.swift in Sources */,
+				0E3B6BFC29F3A7B80093FC45 /* PineToolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E3B6C0429F3A7B90093FC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E3B6C0529F3A7B90093FC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E3B6C0729F3A7B90093FC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VE74Y2PVW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineTool/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs to use Bluetooth to communicate with your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.lachy.PineTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E3B6C0829F3A7B90093FC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VE74Y2PVW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineTool/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs to use Bluetooth to communicate with your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.lachy.PineTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3B6BF329F3A7B80093FC45 /* Build configuration list for PBXProject "PineTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3B6C0429F3A7B90093FC45 /* Debug */,
+				0E3B6C0529F3A7B90093FC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3B6C0629F3A7B90093FC45 /* Build configuration list for PBXNativeTarget "PineTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3B6C0729F3A7B90093FC45 /* Debug */,
+				0E3B6C0829F3A7B90093FC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E3B6C1C29F68A700093FC45 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		0E3B6C1F29F68AC70093FC45 /* XCRemoteSwiftPackageReference "KeyboardGuide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/niw/KeyboardGuide";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+		0E3B6C2329F694A40093FC45 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E3B6C1D29F68A700093FC45 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E3B6C1C29F68A700093FC45 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+		0E3B6C2029F68AC70093FC45 /* KeyboardGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E3B6C1F29F68AC70093FC45 /* XCRemoteSwiftPackageReference "KeyboardGuide" */;
+			productName = KeyboardGuide;
+		};
+		0E3B6C2429F694A40093FC45 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E3B6C2329F694A40093FC45 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E3B6BF029F3A7B80093FC45 /* Project object */;
+}
